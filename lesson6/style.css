@@ -1,0 +1,35 @@
+.product-item {
+    position: relative;
+}
+
+.product-item-remove-btn {
+    display: block;
+    color: #fff !important;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.popular {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.carousel-item {
+    display: block;
+    text-decoration: none !important;
+}
+
+.carousel-item-img {
+    display: block;
+    width: 30%;
+}

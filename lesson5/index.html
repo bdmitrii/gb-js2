@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card my-5 ml-auto" style="width: 25rem;">
+            <div class="card-body">
+                <h5 class="card-title">Корзина</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+        </div>
+        <div class="card-deck">
+            <div class="row">
+                <div class="card col-md-6" data-product-id="0" >
+                    <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" data-product-name="Nike AIR MAX 95">Nike AIR MAX 95 ESSENTIAL</h5>
+                        <p class="card-text" data-product-price="5000">Цена 5000р.</p>
+                        <a href="#" class="btn btn-primary btn-send">Добавить в корзину</a>
+                    </div>
+                </div>
+                <div class="card col-md-6" data-product-id="1">
+                    <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" data-product-name="Nike AIR HUARACHE Blue">Nike AIR HUARACHE Blue</h5>
+                        <p class="card-text" data-product-price="7000">Цена 7000р</p>
+                        <a href="#" class="btn btn-primary btn-send">Добавить в корзину</a>
+                    </div>
+                </div>
+                <div class="card col-md-6" data-product-id="2">
+                    <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" data-product-name="Nike AIR MAX 1">Nike AIR MAX 1</h5>
+                        <p class="card-text" data-product-price="6000">Цена 6000р.</p>
+                        <a href="#" class="btn btn-primary btn-send">Добавить в корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="comments mt-5">
+            <h2>Комментарии</h2>
+            <form action="#" id="comment-form">
+                <div class="form-group">
+                    <label for="text-area">Оставить комментарий</label>
+                    <textarea class="form-control" id="text-area" rows="2"></textarea>
+                </div>
+                <input type="submit">
+            </form>
+            <div class="comments-wrapper">
+                <p class="comment my-2 shadow-sm p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio impedit doloribus non sit, harum, quisquam, aut labore nemo quia vero ipsa blanditiis dignissimos natus ducimus iusto. Eos, vero enim!</p>
+            </div>
+        </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

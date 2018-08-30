@@ -1,0 +1,1 @@
+class User{constructor(s){this.name=s,this.products=[]}addProduct(s){this.products.push(s)}}class Product{constructor(s,r){this.name=s,this.price=r}}const user=new User("Dima");user.addProduct(new Product("Milk",20)),user.addProduct(new Product("Bread",30)),console.log(user.products);
